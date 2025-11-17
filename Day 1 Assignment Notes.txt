@@ -15,7 +15,7 @@ If there is no main method the program execution does not happen
 
 The syntax is public static void main(String[] args)
 
-public- Access from anywhere of the program or outside the package
+public- Access modifier used to access from anywhere inside or outside the package/program/project
 
 static-keyword used to mention that the main method can be accessed from this class
 
@@ -43,6 +43,7 @@ https://github.com/carlinreny2609/SLA-Testing/blob/main/Day1
 6.Enter Class Name(First Letter as Caps)
 7.Select the check box for "public static void main(String[] args)"
 8.Click finish and view the programming page.
+
 
 
 
