@@ -1,0 +1,48 @@
+1.What is your understanding about java?
+
+Java is an object oriented programming language .It is efficient, robust, Reliable,Dynamic also
+Its features are Encapsulation,polymorphism,Multithreading,Abstraction,Inheritance
+It has more libraries to make the programming easy and simpler
+The JVM -Java Virtual Machine is used to compile the byte code to Machine code.
+The java interpreter is used to interpret the code.
+Java uses Classes to specify the properties of the objects.
+Methods are used to perform an action in Java
+
+2.What is the importance of main method in Java?
+
+The main method is the entry of the Program from where execution starts.
+If there is no main method the program execution does not happen
+
+The syntax is public static void main(String[] args)
+
+public- Access from anywhere of the program or outside the package
+
+static-keyword used to mention that the main method can be accessed from this class
+
+(String[] args) - parameters passed through the main method
+
+void- returns nothing.
+
+main- this the main method which is executed by the JVM
+
+
+3.Write a program to print the student details?
+
+(submitted it GITHUB)
+
+https://github.com/carlinreny2609/SLA-Testing/blob/main/Day1
+
+
+4.How to run a Program in Eclipse?
+
+1.Open Eclipse IDE
+2.Click on File->New->Java Project
+3.Enter the Project Name
+4.Click on Finish
+5.Right click on src folder in the Left pane and click New -> Class
+6.Enter Class Name(First Letter as Caps)
+7.Select the check box for "public static void main(String[] args)"
+8.Click finish and view the programming page.
+
+
+
