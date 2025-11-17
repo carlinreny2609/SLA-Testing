@@ -1,0 +1,19 @@
+package selenium;
+
+public class Studentdetails {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int slno=1;
+		int rollno=101;
+		String name="Ajay";
+		String location="chennai";
+		String fathersname= "Raghav";
+		String contactnumber= "9231256709";
+		int Grade=5;
+		
+		System.out.print("The student details are:" + '\n' +"Sl.no :"+slno + '\n' +"Roll Number :" +rollno + '\n'+"Grade :" +Grade +'\n' +"Name :" +name  + '\n'+"Location :" +location + '\n' +"Fathers Name :"+fathersname + '\n' +"Contact Number :"+contactnumber);
+	}
+
+}
