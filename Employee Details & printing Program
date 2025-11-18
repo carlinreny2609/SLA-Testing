@@ -1,0 +1,25 @@
+package selenium;
+
+import java.util.Scanner;
+
+public class Employee_Details {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Employee ID:");
+		int ID =scan.nextInt();
+		System.out.println("Enter the Employee Name:");
+		String Name =scan.next();
+		System.out.println("Enter the Employee Department:");
+		String Department = scan.next();
+		System.out.println("Enter the Employee Position:");
+		String Position = scan.next();
+		System.out.println("Enter the Employee Branch Location:");
+		String Location = scan.next();		
+		scan.close();		
+		System.out.println("The Employee Details are :" +'\n'+ "--------------------------"+'\n' +ID +'\n' +Name+'\n'+Department +'\n' +Position +'\n'+Location);
+		}
+
+}
