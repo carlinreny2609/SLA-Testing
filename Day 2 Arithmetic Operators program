@@ -1,0 +1,27 @@
+package selenium;
+
+public class Arithmetic_operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 5;
+		int b = 3;		
+		
+		int add = a + b;
+		int sub = a - b;
+		int mul = a * b;
+		int div = a / b;
+		int mod = a % b;
+		
+		System.out.println("The Arithmetic operator Results are:");
+		System.out.println("------------------------------------");
+		System.out.println("The addition operator result is:" + add);
+		System.out.println("The Subtraction operator result is:" + sub);
+		System.out.println("The multiplication operator result is:" + mul);
+		System.out.println("The division operator result is:" + div);
+		System.out.println("The modulus operator result is:" + mod);
+
+	}
+
+}
